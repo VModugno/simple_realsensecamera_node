@@ -1,0 +1,28 @@
+name: win_ros_2
+channels:
+- conda-forge
+- robostack-staging
+dependencies:
+- python=3.9
+- gettext 
+- pip
+- numpy
+- matplotlib
+- scipy
+- rospkg
+- pybind11
+- urdfdom
+- ros-noetic-ros-base
+- ros-noetic-tf2-msgs
+- ros-noetic-rviz
+- ros-noetic-cv-bridge
+- ros-noetic-xacro
+- catkin_tools
+- compilers 
+- cmake 
+- pkg-config 
+- make 
+- ninja
+- opencv
+- pip:
+    - pyrealsense2

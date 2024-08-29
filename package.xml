@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>simple_camera_node</name>
+  <version>0.0.0</version>
+  <description>Package for using realsense camera when the ROS node is faulty</description>
+  <maintainer email="v.modugno@ucl.ac.uk">Valerio Modugno</maintainer>
+  <license>BSD</license>  <!-- Replace BSD with your actual license -->
+
+  <!-- Example URL tags -->
+  <!-- <url type="website">http://www.example.com</url> -->
+  <!-- <url type="repository">http://github.com/example/repository</url> -->
+  <!-- <url type="bugtracker">http://github.com/example/repository/issues</url> -->
+
+  <!-- Example author tag -->
+  <!-- <author email="contributor@example.com">Contributor Name</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+    <!-- Additional package information can be added here -->
+  </export>
+</package>
