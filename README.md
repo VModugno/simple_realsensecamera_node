@@ -68,5 +68,5 @@ roslaunch simple_realsense_camera_node start_camera.launch
 ```
 
 This command will start the ROS node that interfaces with the RealSense camera, capturing and publishing image and depth data.
-```
+
 
