@@ -19,7 +19,7 @@ Follow these steps to set up and activate the environment for the `simple_realse
   ```
   git clone https://github.com/Microsoft/vcpkg.git
   cd vcpkg
-  ./bootstrap-vcpkg.sh
+  ./bootstrap-vcpkg.bat
   ./vcpkg integrate install
   ./vcpkg install realsense2
   ```
