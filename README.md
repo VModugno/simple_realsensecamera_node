@@ -1,5 +1,5 @@
 # simple realsense camera node
-this package contains  simple implementatio of a ros node for a real sense camera. the cide has been tested on windows with mamba conda env
+This package provides a simple implementation of a ROS node for Intel RealSense cameras. The code has been developed and tested on Windows, using a Mamba-managed Conda environment.
 
 
 ## Installation
